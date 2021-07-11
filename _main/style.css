@@ -1,6 +1,6 @@
 .aside {
   width: 30%;
-  height: 100%;
+  height: auto;
   background-color: rgb(208, 209, 221);
 }
 
@@ -9,6 +9,8 @@
 }
 
 .aside-photo {
+  display: block;
+
   width: 183px;
   height: 245px;
 
@@ -35,9 +37,13 @@
   color: rgb(44, 44, 44);
 }
 
+.achievement {
+  margin-bottom: 15px;
+}
+
 .main {
   width: 70%;
-  height: 100%;
+  height: auto;
   background-color: rgba(116, 116, 116, 0.781);
 }
 
@@ -55,6 +61,7 @@
 
 .main-h4 {
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .main-h5 {
@@ -75,7 +82,7 @@
 
   background-color: rgb(131, 131, 131);
   height: 1px;
-  border:0px none;
+  border: 0px none;
 }
 
 .about, .education, .experience, .example {  
